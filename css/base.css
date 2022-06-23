@@ -2,17 +2,18 @@
                     --name-font-size: 30px;
                     --name-line-height: 34px;
                     --title-font-size: 24px;
-                    --title-line-height: 56px;
+                    --title-line-height: 34.47px;
                     --text-font-size: 16px;
-                    --text-line-height: 90px;}
+                    --text-line-height: 27.58px;
+}
 * {
                     box-sizing: border-box;
 }
 body {
                     font-family: Ubuntu, sans-serif, Roboto;
-                    background-color: white;
+                    background-color: gray;
 }
-body, div, p, h1, h2, ul {
+body, div, p, h1, h2, h3, ul {
                     padding: 0;
                     margin: 0;
 
