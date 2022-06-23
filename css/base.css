@@ -1,0 +1,25 @@
+:root {
+                    --name-font-size: 30px;
+                    --name-line-height: 34px;
+                    --title-font-size: 24px;
+                    --title-line-height: 56px;
+                    --text-font-size: 16px;
+                    --text-line-height: 90px;}
+* {
+                    box-sizing: border-box;
+}
+body {
+                    font-family: Ubuntu, sans-serif, Roboto;
+                    background-color: white;
+}
+body, div, p, h1, h2, ul {
+                    padding: 0;
+                    margin: 0;
+
+}
+ul, ol {
+                    list-style: none;
+}
+a {
+                    text-decoration: none
+}
