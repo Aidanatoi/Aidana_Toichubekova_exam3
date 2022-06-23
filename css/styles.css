@@ -50,3 +50,17 @@
                     border-color:#19849B;
 
 }
+
+.main__title {
+                    font-size: var(-text-font-size);
+                    line-height: var(--text-line-height);
+                    font-weight: bold;
+                    color: white;
+                    padding: 0 14px 0 227px;
+}
+.main__subtitle {
+                    color: white;
+                    font-size: 16px;
+                    line-height: 18.38px;
+                    padding: 0 447px 28px 227px;
+}
