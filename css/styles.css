@@ -1,0 +1,13 @@
+.header {
+                    background-color: #19849B;
+}
+.header_name {
+                    font-family: Ubuntu, sans-serif, Roboto;
+                    font-size: var(--name-font-size);
+                    line-height: var(--name-line-height);
+                    display: flex;
+                    justify-content: center;
+                    padding-top: 12px;
+                    padding-bottom: 12px;
+                    color: white;
+}
