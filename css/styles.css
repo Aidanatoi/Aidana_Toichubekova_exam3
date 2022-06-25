@@ -1,0 +1,210 @@
+.header {
+                    background-color: #19849B;
+}
+.header_name {
+                    font-family: Ubuntu, sans-serif, Roboto;
+                    font-size: var(--name-font-size);
+                    line-height: var(--name-line-height);
+                    display: flex;
+                    justify-content: center;
+                    padding-top: 12px;
+                    padding-bottom: 12px;
+                    color: white;
+}
+.header_portfolio {
+                    display: flex;
+                    justify-content: space-between;
+}
+.header__column-left {
+                    display: flex;
+                    background-size: cover;
+                    margin: 51px 68px 104px 227px;
+}
+.header__column-right {
+                    margin: 51px 174px 14px 0;
+}
+.header__biography {
+                    font-size: var(--title-font-size);
+                    line-height: var(--title-line-height);
+                    font-family: Ubuntu, sans-serif, Roboto;
+                    font-weight: bold;
+                    color: white;
+}
+.header__subtitle {
+                    font-size: var(-text-font-size);
+                    line-height: var(--text-line-height);
+                    font-weight: bold;
+                    color: white;
+                    margin: 12px 0 30px 0;
+}
+
+.header__text {
+                    font-family: 'Ubuntu', sans-serif;
+                    color: white;
+                    font-size: 16px;
+                    line-height: 18.38px;
+}
+.header__hr {
+                    height: 4px;
+                    padding: 0 0 0 0;
+                    border-color:#19849B;
+
+}
+
+
+
+.header__btn_title {
+                    margin: 49px 0 15px 44px;
+                    font-size: 24px;
+                    line-height: 28px;
+                    color: white;
+}
+.header__btn_info {
+                    margin: 0 44px 0 44px;
+                    color: white;
+                    font-size: 16px;
+                    line-height: 18px;
+}
+.header_btn {
+                    background-color: #272A2F;
+                    margin: 40px 0 0 0;
+                    padding: 12px 60px 12px 60px;
+                    text-align: center;
+                    border: 2px solid white;
+                    font-size: 18px;
+                    line-height: 21px;
+                    color: white;
+}
+.header_btn:active {
+                    background-color: #19849B;
+                    border-color: 
+                    #19849B;
+                    transition: 0.3s;
+}
+.header_btn:focus {
+                    outline: none;
+}
+
+.header__modal-container {
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100vh;
+                    position: fixed;
+                    display: none;
+                    opacity: 0;
+                    pointer-events: none;
+                    transform: translateY(-44.5%) scale(0);
+                    transition: 0.5%s ease-in-out;
+}
+.header__modal-container {
+                    opacity: 1;
+                    pointer-events: all;
+                    transition: 0.5s all;
+                    transform: translateY(0%) scale(100%);
+                    background-color: rgba(25,132,155, 0.3);
+}
+
+.header_popup {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    background-color: #272A2F;
+                    width: 656px;
+                    height: 610px;
+                    transition: 0.5s all;
+}
+.header_popup:active {
+                    transform: translate(-50%, -50%) scale(1);
+}
+
+.header__modal-input {
+                    display: flex;
+}
+
+.header__btn-submit {
+                    background-color: #272A2F;
+                    margin: 20px 0 0 44px;
+                    padding: 12px 60px 12px 60px;
+                    text-align: center;
+                    border: 2px solid white;
+                    font-size: 18px;
+                    line-height: 21px;
+                    color: white;
+}
+.header__btn-submit:active {
+                    background-color: #19849B;
+                    border-color: 
+                    #19849B;
+                    transition: 0.3s;
+}
+
+.header__btn_name {
+                    background-color: #324B53;
+                    font-size: 16px;
+                    line-height: 18.38px;
+                    text-align: center;
+                    border-color: transparent;
+                    margin: 26px 20px 20px 44px;
+                    width: 178px;
+                    height: 50px;
+                    color: white;
+}
+.header__btn_name::placeholder {
+                    color: #8EA5AC;
+                    margin-left: 22px;
+                    font-size: 16px;
+                    line-height: 13.38;
+}
+.header__btn_name:focus {
+                    outline: none;
+}
+
+.header__btn_email {
+                    background-color: #324B53;
+                    font-size: 16px;
+                    line-height: 18.38px;
+                    text-align: center;
+                    border-color: transparent;
+                    margin: 26px 20px 20px 0;
+                    width: 325px;
+                    height: 50px;
+                    color: white;
+}
+.header__btn_email::placeholder {
+                    color: #8EA5AC;
+                    margin-left: 22px;
+                    font-size: 16px;
+                    line-height: 13.38;
+}
+.header__btn_email:focus {
+                    outline: none;
+}
+.header__btn_textarea {
+                    background-color: #324B53;
+                    font-size: 16px;
+                    line-height: 18.38px;
+                    text-align: center;
+                    border-color: #324B53;
+                    margin: 10px 20px 0 44px;
+                    width: 567px;
+                    height: 219px;
+                    color: white;
+}
+
+.header__btn_textarea::placeholder {
+                    color: #8EA5AC;
+                    margin-left: 22px;
+                    font-size: 16px;
+                    line-height: 13.38;
+}
+.header__btn_textarea:focus {
+                    outline: none;
+}
+input{
+                    padding-left: 16px;
+                }
+input::-webkit-input-placeholder {
+                    text-align: left;
+}
