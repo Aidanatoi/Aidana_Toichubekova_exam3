@@ -176,3 +176,38 @@
   .header__img {
     width: 600px;
 }}
+
+media (max-width: 629px) {
+  .header__img {
+    width: 500px; }
+
+.main__subtitle {
+  padding: 0 0 0 0;
+  margin: 0 15px 28px 30px;
+}
+.main__title {
+  padding: 0 0 0 0 ;
+  margin: 20px 15px 28px 30px;
+}
+}
+
+@media (max-width: 521px) {
+  .header__img {
+    width: 400px;
+}
+.main__section_img {
+  width: 165px;
+  height: 165px;
+}
+}
+@media (max-width: 445px) {
+  .header__img {
+    width: 341px;
+  height: 355px;}
+  .main_section {
+    margin: 0 15px 100px 15px;
+    padding: 0 0 0 0 ;
+    column-gap: 15px;
+    row-gap: 15px;
+  }
+}
